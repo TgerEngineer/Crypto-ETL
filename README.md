@@ -65,7 +65,7 @@ fact_crypto_price: Bảng fact lưu giá, market cap, volume theo thời gian.
 🎯 Các bước triển khai:
 
 1. Clone dự án:
-  git clone https://github.com/your-username/crypto-data-pipeline.git
+  git clone https:https://github.com/TgerEngineer/Crypto-ETL
   cd crypto-data-pipeline
 2. Khởi động Docker Compose:
   docker-compose up -d
