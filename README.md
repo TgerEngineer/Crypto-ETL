@@ -26,19 +26,7 @@ CoinGecko API ↓ Airflow DAG (Extract → Load → Transform) ↓ PostgreSQL Da
 ---
 
 📂 **Cấu trúc thư mục:**  
-crypto-etl/
-├── dags/                  # Chứa các DAG của Airflow
-│   └── crypto_pipeline.py
-├── etl/                   # Các script ETL
-│   ├── etl_raw_crypto.py
-│   ├── load_dim_crypto.py
-│   └── transform_load_fact.py
-├── sql/                   # Câu lệnh SQL tạo bảng (schema)
-│   └── init_db.sql
-├── docker-compose.yml     # Khởi chạy Airflow + Postgres bằng Docker Compose
-├── requirements.txt       # Thư viện Python cần thiết
-└── README.md              # Mô tả dự án
-
+![image](https://github.com/user-attachments/assets/93f7b7fc-64b1-49a7-9126-06de71c25613)
 
 ---
 
