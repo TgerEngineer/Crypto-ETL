@@ -36,7 +36,7 @@ PostgreSQL Database (raw, dim, fact)
 Phân tích dữ liệu (Jupyter Notebook, Power BI)
 
 📂 Cấu trúc thư mục:
-
+'''
 crypto-etl/
 ├── dags/                  # Chứa các DAG của Airflow
 │   └── crypto_pipeline.py
@@ -49,7 +49,7 @@ crypto-etl/
 ├── docker-compose.yml     # Khởi chạy Airflow + Postgres bằng Docker Compose
 ├── requirements.txt       # Thư viện Python cần thiết
 └── README.md              # Mô tả dự án
-
+'''
 🗄️ Các bảng dữ liệu:
 
 raw_crypto_prices: Bảng lưu dữ liệu thô từ API.
