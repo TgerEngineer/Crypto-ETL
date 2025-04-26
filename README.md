@@ -23,10 +23,6 @@ Pipeline sử dụng Apache Airflow để orchestration, PostgreSQL để lưu t
 🧩 **Kiến trúc hệ thống:**  
 CoinGecko API ↓ Airflow DAG (Extract → Load → Transform) ↓ PostgreSQL Database (raw, dim, fact) ↓ Phân tích dữ liệu (Jupyter Notebook, Power BI)
 
-yaml
-Sao chép
-Chỉnh sửa
-
 ---
 
 📂 **Cấu trúc thư mục:**  
@@ -62,9 +58,9 @@ Mở trình duyệt tại: http://localhost:8080
 
 Đăng nhập với:
 
-Username: airflow
+Username: admin
 
-Password: airflow
+Password: admin
 
 Trigger DAG: crypto_etl_dag
 
