@@ -38,21 +38,17 @@ Phân tích dữ liệu (Jupyter Notebook, Power BI)
 📂 Cấu trúc thư mục:
 
 crypto-etl/
-│
-├── dags/                       # Chứa các DAG của Airflow
+├── dags/                  # Chứa các DAG của Airflow
 │   └── crypto_pipeline.py
-│
-├── etl/                    # Các script ETL
+├── etl/                   # Các script ETL
 │   ├── etl_raw_crypto.py
-│   ├── transform_load_fact.py
-│   └── load_dim_crypto.py
-│
-├── sql/                        # Câu lệnh tạo bảng (schema)
+│   ├── load_dim_crypto.py
+│   └── transform_load_fact.py
+├── sql/                   # Câu lệnh SQL tạo bảng (schema)
 │   └── init_db.sql
-│
-├── docker-compose.yml         # Khởi chạy Airflow + Postgres
-├── requirements.txt           # Thư viện Python cần thiết
-└── README.md                  # Mô tả dự án
+├── docker-compose.yml     # Khởi chạy Airflow + Postgres bằng Docker Compose
+├── requirements.txt       # Thư viện Python cần thiết
+└── README.md              # Mô tả dự án
 
 🗄️ Các bảng dữ liệu:
 
